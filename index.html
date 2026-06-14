@@ -263,74 +263,12 @@ width:280px;
 height:280px;
 }
 }
-.hero-intro{
-opacity:0;
-transform:translateY(50px);
-animation:slideUp 1s ease forwards;
-animation-delay:0.5s;
-}
-
-.hero-intro p{
-font-size:24px;
-color:#aaa;
-margin-bottom:10px;
-}
-
-.hero-intro h1{
-font-size:90px;
-font-weight:700;
-color:white;
-line-height:1;
-}
-
-@keyframes slideUp{
-from{
-opacity:0;
-transform:translateY(50px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-.loader-text{
-text-align:center;
-animation:fadeUp 1.5s ease;
-}
-
-.loader-text p{
-font-size:22px;
-color:#999;
-margin-bottom:10px;
-}
-
-.loader-text h1{
-font-size:80px;
-color:#ff8c00;
-letter-spacing:3px;
-}
-
-@keyframes fadeUp{
-from{
-opacity:0;
-transform:translateY(40px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
 </style>
 </head>
 
 <body>
 
-<div class="loader">
-<div class="loader-text">
-<p>HI, I AM</p>
-<h1>HARISH</h1>
-</div>
-</div>
+<div class="loader">HARISH</div>
 
 <nav>
 <div class="logo">HARISH</div>
@@ -346,10 +284,7 @@ transform:translateY(0);
 <section class="hero" id="home">
 
 <div class="hero-text">
-<div class="hero-intro">
-<p>Hi, I Am</p>
-<h1>HARISH</h1>
-</div>
+<h1 id="heroName">Harish</h1>
 
 <h2 class="orange">Freelance Video Editor & Visual Storyteller</h2>
 
