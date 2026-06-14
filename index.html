@@ -293,12 +293,44 @@ opacity:1;
 transform:translateY(0);
 }
 }
+.loader-text{
+text-align:center;
+animation:fadeUp 1.5s ease;
+}
+
+.loader-text p{
+font-size:22px;
+color:#999;
+margin-bottom:10px;
+}
+
+.loader-text h1{
+font-size:80px;
+color:#ff8c00;
+letter-spacing:3px;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
 </style>
 </head>
 
 <body>
 
-<div class="loader">HARISH</div>
+<div class="loader">
+<div class="loader-text">
+<p>HI, I AM</p>
+<h1>HARISH</h1>
+</div>
+</div>
 
 <nav>
 <div class="logo">HARISH</div>
@@ -314,7 +346,7 @@ transform:translateY(0);
 <section class="hero" id="home">
 
 <div class="hero-text">
-<div class="hero-intro" style="animation:slideUp 1s ease;">
+<div class="hero-intro">
 <p>Hi, I Am</p>
 <h1>HARISH</h1>
 </div>
